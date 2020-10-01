@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Selflog Cargas</string>
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="todo">TODO</string>
+    <string name="parar_envio">Parar Envio</string>
+    <string name="iniciar_envio_de_posi_es">Iniciar Envio de posições</string>
+    <string name="bemvindo">Bem vindo,</string>
+    <string name="iniciar_viagem">Iniciar Rastreamento</string>
+    <string name="finalizar_viagem">Parar </string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="entrar">Entrar</string>
+    <string name="finalizar">* Ao terminar à entrega, favor apertar em finalizar a viagem, para que diminua o gasto com envio de posições.</string>
+    <string name="textoerro">textoerro</string>
+    <string name="sair">Sair</string>
+    <string name="ver_cargas">Ver Cargas</string>
+</resources>

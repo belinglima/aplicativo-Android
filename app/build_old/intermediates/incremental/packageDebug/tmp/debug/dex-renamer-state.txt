@@ -1,0 +1,4 @@
+#Tue Sep 29 09:40:04 BRT 2020
+base.0=/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

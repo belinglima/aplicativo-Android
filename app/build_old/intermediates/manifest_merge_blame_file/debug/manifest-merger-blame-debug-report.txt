@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.android.gms.location.sample.locationupdatesforegroundservice"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:5:5-77
+11-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:6:5-78
+12-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:7:5-66
+13-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:9:5-35:19
+16        android:allowBackup="true"
+16-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] /home/salomao/.gradle/caches/transforms-2/files-2.1/ae3468b444d41a56f261ecbb8448fe17/core-1.3.1/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:14:9-41
+21        android:networkSecurityConfig="@xml/network_security_config"
+21-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:12:9-69
+22        android:supportsRtl="true"
+22-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:16:9-40
+25        android:usesCleartextTraffic="true" >
+25-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:11:9-44
+26        <activity android:name="com.google.android.gms.location.sample.locationupdatesforegroundservice.MainActivity" >
+26-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:17:9-22:20
+26-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:18:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:19:17-69
+28-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:20:17-77
+30-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.google.android.gms.location.sample.locationupdatesforegroundservice.RastreamentoActivity" />
+33-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:23:9-58
+33-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:23:19-55
+34
+35        <uses-library
+35-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:25:9-27:40
+36            android:name="org.apache.http.legacy"
+36-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:26:13-50
+37            android:required="false" />
+37-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:27:13-37
+38
+39        <!-- Foreground services in Q+ require type. -->
+40        <service
+40-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:30:9-34:56
+41            android:name="com.google.android.gms.location.sample.locationupdatesforegroundservice.LocationUpdatesService"
+41-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:31:13-51
+42            android:enabled="true"
+42-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:32:13-35
+43            android:exported="true"
+43-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:33:13-36
+44            android:foregroundServiceType="location" />
+44-->/home/salomao/AndroidStudioProjects/varios/LocationUpdatesForegroundService/app/src/main/AndroidManifest.xml:34:13-53
+45
+46        <activity
+46-->[com.google.android.gms:play-services-base:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:17.0.0] /home/salomao/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+54    </application>
+55
+56</manifest>
